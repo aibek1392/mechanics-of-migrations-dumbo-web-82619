@@ -8,14 +8,14 @@ class CreateArtists < ActiveRecord::Migration[5.2]
     end
   end
   
-   has_many :tires
+#   has_many :tires
 
-  after_create :make_tires
+#   after_create :make_tires
 
-  def make_tires
-    4.times { Tire.create(car: self.id) }
-  end
+#   def make_tires
+#     4.times { Tire.create(car: self.id) }
+#   end
     
 
-end 
+# end 
 
