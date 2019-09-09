@@ -7,7 +7,7 @@ class CreateArtists < ActiveRecord::Migration[5.2]
       t.string :hometown
     end
   end
-  
+end
 #   has_many :tires
 
 #   after_create :make_tires
